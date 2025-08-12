@@ -90,7 +90,7 @@ removeActiveClass();
 // way-2
 
  document.getElementById('customModal').showModal();
-  detailsContainer.innerHTML = ` <img class="w-full" src =${video.thumbnail} /> 
+  detailsContainer.innerHTML = ` <img class="w-full text-center" src =${video.thumbnail} /> 
   
   <p>${video.description}</p>
   
